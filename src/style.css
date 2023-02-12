@@ -218,6 +218,10 @@ body {
 }
 
 @media (max-width: 600px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
   .about .box {
     flex-direction: column;
   }
