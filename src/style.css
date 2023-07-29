@@ -6,6 +6,7 @@
   box-sizing: border-box;
   /* font-family: "Inconsolata", monospace; */
 }
+
 a,
 ul {
   text-decoration: none;
@@ -17,6 +18,7 @@ ul {
   padding-left: 0rem;
 }
 body {
+  user-select: none;
   display: flex;
   background-color: rgb(40, 109, 193);
   justify-content: center;
@@ -97,6 +99,9 @@ body {
   grid-template-columns: 150px 1fr;
   justify-content: center;
   align-items: center;
+}
+.tech_skill .box:hover {
+  cursor: pointer;
 }
 .tech_skill .box h6 {
   text-transform: uppercase;
@@ -206,7 +211,11 @@ body {
   text-align: right;
   color: #1c832f;
 }
-
+.text-light {
+  margin-top: 5%;
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
 @media (max-width: 1000px) {
   .container {
     margin: 10px;
